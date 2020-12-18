@@ -1,7 +1,7 @@
 ## Database > PostgreSQL Instance > 사용 가이드
 
 `본 가이드는 13 버전을 기준으로 작성되었습니다.`  
-`다른 버전을 사용하시는 경우 해당 버전에 맞게 변경해주십시오.`
+`다른 버전을 사용하시는 경우 해당 버전에 맞게 변경해 주십시오.`
 
 ## PostgreSQL 시작/정지 방법
 
@@ -54,17 +54,17 @@ shell> systemctl restart postgresql-13
 shell> psql -p[변경된 포트 번호]
 ```
 
-### 2\. 서버 로그 timezone 변경
+### 2\. 서버 로그 타임 존 변경
 
-서버 로그에 기록되는 기본 시간대가 UTC로 설정되어 있습니다. SYSTEM 로컬 시간과 동일하게 변경을 권장합니다.
+서버 로그에 기록되는 기본 시간대가 UTC로 설정되어 있습니다. SYSTEM 로컬 시간과 동일하게 변경할 것을 권장합니다.
 <br>
 ```
 shell> vi /var/lib/pgsql/13/data/postgresql.conf
 
 
-#postgresql.conf 파일에 사용하고자 하는 timezone을 명시해 줍니다.
+#postgresql.conf 파일에 사용하고자 하는 타임 존을 명시해 줍니다.
 
-log_timezone =사용하고자 하는 timezone
+log_timezone =사용하고자 하는 타임 존
 
 
 #vi 편집기 저장
@@ -102,7 +102,7 @@ postgres=# REVOKE CREATE ON SCHEMA public FROM PUBLIC;
 
 ### 4\. 원격 접속 허용
 
-로컬호스트 이외의 접속을 허용하기 위해서는 listen\_addresses 변수와 클라이언트 인증 설정파일 변경이 필요합니다.
+로컬 호스트 이외의 접속을 허용하려면 listen_addresses 변수와 클라이언트 인증 설정 파일을 변경해야 합니다.
 <br>
 ```
 shell> vi /var/lib/pgsql/13/data/postgresql.conf
@@ -141,7 +141,7 @@ shell> systemctl restart postgresql-13
 
 ## PostgreSQL 디렉터리 설명
 
-PostgreSQL디렉터리 및 파일 설명은 아래와 같습니다.
+PostgreSQL 디렉터리 및 파일 설명은 아래와 같습니다.
 
 | 이름 | 설명 |
 | --- | --- |
