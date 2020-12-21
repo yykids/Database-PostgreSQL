@@ -9,10 +9,10 @@ PostgreSQL을 사용하기 위해서 먼저 인스턴스를 생성해야합니�
 PostgreSQL Instance 생성 버튼을 클릭하면 **Compute > Instance > 인스턴스 생성** 으로 넘어갑니다.
 
 PostgreSQL 버전은 다음과 같이 4가지 종류가 제공됩니다.
-* PostgreSQL 10.*
-* PostgreSQL 11.*
-* PostgreSQL 12.*
-* PostgreSQL 13.*
+* PostgreSQL 10
+* PostgreSQL 11
+* PostgreSQL 12
+* PostgreSQL 13
 
 ![postgresql_guide_ko_02_20201218.png](https://static.toastoven.net/prod_postgresql/postgresql_guide_ko_02_20201218.png)
 
