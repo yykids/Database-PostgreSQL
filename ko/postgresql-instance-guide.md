@@ -1,5 +1,23 @@
 ## Database > PostgreSQL Instance > 사용 가이드
 
+## PostgreSQL Instance 생성
+
+PostgreSQL을 사용하기 위해서 먼저 인스턴스를 생성해야 합니다.
+
+![postgresql_guide_ko_01_20201218.png](https://static.toastoven.net/prod_postgresql/postgresql_guide_ko_01_20201218.png)
+
+**PostgreSQL Instance 생성** 버튼을 클릭하면 **Compute > Instance > 인스턴스 생성**으로 이동합니다.
+
+PostgreSQL 버전은 다음과 같이 4가지 종류가 제공됩니다.
+* PostgreSQL 10
+* PostgreSQL 11
+* PostgreSQL 12
+* PostgreSQL 13
+
+![postgresql_guide_ko_02_20201218.png](https://static.toastoven.net/prod_postgresql/postgresql_guide_ko_02_20201218.png)
+
+PostgreSQL 버전을 선택하고 추가 설정을 완료한 후 인스턴스를 생성합니다. 인스턴스 생성에 대한 자세한 내용은 [Instance 개요](http://docs.toast.com/ko/Compute/Instance/ko/overview/)를 참고하시기 바랍니다.
+
 `본 가이드는 13 버전을 기준으로 작성되었습니다.`  
 `다른 버전을 사용하시는 경우 해당 버전에 맞게 변경해 주십시오.`
 
