@@ -1,5 +1,6 @@
 ## Database > PostgreSQL Instance > 개요
-PostgreSQL가 설치된 가상서버를 제공하는 서비스입니다. PostgreSQL 버전, CPU, 메모리, 디스크를 선택하여 원하는 스팩의 PostgreSQL을 사용할 수 있습니다.
+PostgreSQL가 설치된 가상서버를 제공하는 서비스입니다.
+PostgreSQL 버전, CPU, 메모리, 디스크를 선택하여 원하는 스팩의 PostgreSQL을 사용할 수 있습니다.
 
 ## 기능
 
