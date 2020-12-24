@@ -16,7 +16,7 @@ PostgreSQLバージョンは次のように4種類が提供されます。
 
 ![postgresql_guide_ja_02_20201224.png](https://static.toastoven.net/prod_postgresql/postgresql_guide_ja_02_20201224.png)
 
-PostgreSQLバージョンを選択し、追加設定を完了した後、インスタンスを作成します。インスタンス作成についての詳細は[Instance概要](http://docs.toast.com/ko/Compute/Instance/ko/overview/)を参照してください。
+PostgreSQLバージョンを選択し、追加設定を完了した後、インスタンスを作成します。インスタンス作成についての詳細は[Instance概要](http://docs.toast.com/ja/Compute/Instance/ja/overview/)を参照してください。
 
 `このガイドは13バージョンを基準に作成されました。`  
 `別のバージョンを使用している場合は、バージョンに合わせて変更してください。`
